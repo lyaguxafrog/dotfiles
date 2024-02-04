@@ -46,12 +46,11 @@ mkdir -pv /home/$USER/.urxvt/ext
 fc-cache -rv
 rsync -avxHAXP --exclude-from=- /home/$USER/dotfiles/. /home/$USER/ << "EXCLUDE"
 .git*
-EXTRA_JOYFUL
 EXCLUDE
 
 echo "exec openbox-session" > /home/$USER/.xinitrc
 
-sudo cp /home/$USER/dotfiles/EXTRA_JOYFUL/30-touchpad.conf /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo cp /home/$USER/dotfiles/30-touchpad.conf /etc/X11/xorg.conf.d/30-touchpad.conf
 
 # fish
 rm -f /home/$USER/.bashrc
