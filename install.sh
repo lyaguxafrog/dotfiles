@@ -41,8 +41,6 @@ tar -xf Papirus-Dark-Custom.tar.xz -C /home/$USER/.icons/
 sudo ln -vs /home/$USER/.icons/Papirus-Custom /usr/share/icons/
 sudo ln -vs /home/$USER/.icons/Papirus-Dark-Custom /usr/share/icons/
 
-# wallpapers
-cp /home/$USER/dotfiles/.wallpapers /home/$USER/wallpapers
 
 # urxvt
 mkdir -pv /home/$USER/.urxvt/ext
