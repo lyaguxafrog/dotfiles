@@ -7,7 +7,14 @@ mkdir /home/$USER/Music
 mkdir /home/$USER/Pictures
 mkdir /home/$USER/Videos
 
- git clone --depth 1 --recurse-submodules https://github.com/lyaguxafrog/dotfiles /home/$USER/Documents/dotfiles
+git clone --depth 1 --recurse-submodules https://github.com/lyaguxafrog/dotfiles /home/$USER/Documents/dotfiles
+
+# yay
+git clone https://aur.archlinux.org/yay.git /home/$USER/yay
+cd yay/
+makepkg -si
+cd /home/$USER/
+rm -rf yay
 
 # packages
 yay -S wget xorg-server xorg-xrandr xorg-xrdb rsync psmisc dunst nitrogen openbox rofi rxvt-unicode tint2 picom obmenu-generator perl-gtk3 pipewire lib32-pipewire pipewire-pulse pipewire-alsa helvum mpd mpc ncmpcpp alsa-utils brightnessctl imagemagick scrot w3m wireless_tools xclip xsettingsd xss-lock thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler inkscape mpv parcellite pavucontrol viewnior xfce4-power-manager htop neofetch fish
