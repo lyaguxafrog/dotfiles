@@ -69,7 +69,7 @@ URXVT_OPACITY='97'
 # Dunst notification and URxvt URL-launcher options           ~ Needs restart UI ~ #
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 
-WEB_BROWSER='your_web_browser'
+WEB_BROWSER='your-browser'
 
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 # Tint2 panel executor options for Interactive Mode                  ~ Auto-load ~ #
@@ -108,7 +108,7 @@ SS_CP2CLP='yes'                                  # Universal or all modes
 SS_POINTER='no'                                  # Universal or all modes
 SS_QUALITY='100'                                 # Universal or all modes
 
-SS_USE_FRAME='yes'                               # Selection or draw mode
+SS_USE_FRAME='no'                               # Selection or draw mode
 SS_FRAME_COLOR='auto' #434c5e better for Mech BG # Selection or draw mode w frame
 SS_FRAME_PADDING='15'                            # Selection or draw mode w frame
 SS_FRAME_S_OPACITY='25'                          # Selection or draw mode w frame
@@ -125,7 +125,9 @@ SS_COUNTDOWN_SECONDS='5'                         # Countdown timer or delay mode
 # BRIGHTNESS_STEPS      || 0-100, this is percentage of value with specific range. #
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 
-AUDIO_DEVICE='pulse'
+AUDIO_DEVICE='pipewire'
+AUDIO_CHANNEL='Master'
+CAPTURE_CHANNEL='Capture'
 AUDIO_VOLUME_STEPS='5'
 
 BRIGHTNESS_DEVICE=''
