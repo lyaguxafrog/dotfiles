@@ -26,7 +26,7 @@ doas pacman -S --needed base-devel
 doas pacman -R sudo
 
 # packages
-yay -S --needed wget xorg xorg-xinit xorg-server xorg-xrandr xorg-xrdb rsync psmisc dunst nitrogen openbox rofi rxvt-unicode tint2 picom obmenu-generator perl-gtk3 pipewire lib32-pipewire pipewire-pulse pipewire-alsa helvum mpd mpc ncmpcpp alsa-utils brightnessctl imagemagick scrot w3m wireless_tools xclip xsettingsd xss-lock thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler inkscape mpv parcellite pavucontrol viewnior xfce4-power-manager htop neofetch fish
+yay -S --needed wget polkit xorg xorg-xinit xorg-server xorg-xrandr xorg-xrdb rsync psmisc dunst nitrogen openbox rofi rxvt-unicode tint2 picom obmenu-generator perl-gtk3 pipewire lib32-pipewire pipewire-pulse pipewire-alsa helvum mpd mpc ncmpcpp alsa-utils brightnessctl imagemagick scrot w3m wireless_tools xclip xsettingsd xss-lock thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler inkscape mpv parcellite pavucontrol viewnior xfce4-power-manager htop neofetch fish
 
 # fonts
 mkdir -pv /home/$USER/.fonts/{Cantarell,Comfortaa,IcoMoon-Custom,Nerd-Patched,Unifont}
