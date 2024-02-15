@@ -21,12 +21,12 @@ COL_BLUE_VIOLET='#ac8ef4'                        # Blue mix Violet
 COL_GREEN='#44eb9f'                              # Green
 
 # >~< Don't change the variable name, the value is okay, use comments instead. >~< #
-MECH_ART_TINT2_GLYPH=''                        #   
+MECH_ART_TINT2_GLYPH=''                        #   
 EYEC_ART_TINT2_GLYPH=''                        #   
 
 # >~~~~~~~~~~~~< Mechanical >~~~~~~~~~~~~~~~~~~~~~~~~~~~< Artistic Mode >~~~~~~~~< #
-MECH_ART_TINT2_GRAD1="$COL_RED_MAGENTA"          # Tint2 button gradient color #1
-MECH_ART_TINT2_GRAD2="$COL_RED"                  # Tint2 button gradient color #2
+MECH_ART_TINT2_GRAD1="$COL_BLUE"          # Tint2 button gradient color #1
+MECH_ART_TINT2_GRAD2="$COL_BLUE_VIOLET"                  # Tint2 button gradient color #2
 MECH_ART_ROFI_ACCNT1="$MECH_ART_TINT2_GRAD1"     # Rofi (buttons) accent color #1
 MECH_ART_ROFI_ACCNT2="$MECH_ART_TINT2_GRAD2"     # Rofi (buttons) accent color #2
 MECH_ART_DUNST_SMMRY="$COL_WHITE"                # Dunst title / summary color
@@ -69,7 +69,7 @@ URXVT_OPACITY='97'
 # Dunst notification and URxvt URL-launcher options           ~ Needs restart UI ~ #
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 
-WEB_BROWSER='your-browser'
+WEB_BROWSER='vivaldi'
 
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 # Tint2 panel executor options for Interactive Mode                  ~ Auto-load ~ #

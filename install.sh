@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # folders
+rm -rf /home/$USER/dotfiles/docs
 mkdir /home/$USER/Documents
 mkdir /home/$USER/Downloads
 mkdir /home/$USER/Music
@@ -76,4 +77,4 @@ echo "exec fish" > /home/$USER/.bashrc
 # startup
 clear
 neofetch
-echo "Done! Reboot!"
+echo "Done! Reboot! <3"
