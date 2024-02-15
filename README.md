@@ -123,10 +123,10 @@ git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /ho
 
 ## Update
 ```bash
-dotfiles update
+dotfiles.sh update
 ```
 
 ## Uninstall 
 ```bash
-dotfiles uninstall
+dotfiles.sh uninstall
 ```

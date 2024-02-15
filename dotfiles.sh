@@ -93,6 +93,10 @@ fi
 if [[ $1 = 'update' ]]; then
     # Start updating
 
+    if [ ! -d "/home/$USER/.dotfiles" ]; then
+        git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/.dotfiles
+    fi
+
     cd /home/$USER/.dotfiles
     git pull
 
