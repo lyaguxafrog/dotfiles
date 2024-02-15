@@ -10,7 +10,7 @@ mkdir /home/$USER/Videos
 
 # yay
 git clone https://aur.archlinux.org/yay.git /home/$USER/yay
-cd yay/
+cd /home/$USER/yay/
 makepkg -si
 cd /home/$USER/
 rm -rf yay
