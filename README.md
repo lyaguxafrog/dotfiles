@@ -115,7 +115,7 @@
 
 🚨 **ArchLinux only!** 🚨
 
-**Be sure to clone in ~**
+Be sure to clone in ~
 ```bash
 git clone https://guthub.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /home/$USER/dotfiles && sh install.sh
 ```
