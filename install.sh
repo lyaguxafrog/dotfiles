@@ -17,7 +17,7 @@ rm -rf yay
 
 # doas
 sudo pacman -S doas
-sudo cp /home/$USER/dotfiles/doas.conf /etc/conf
+sudo cp /home/$USER/dotfiles/doas.conf /etc/doas.conf
 sudo chown -c root:root /etc/doas.conf
 sudo chmod -c 0400 /etc/doas.conf
 
