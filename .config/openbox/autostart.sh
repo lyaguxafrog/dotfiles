@@ -9,7 +9,6 @@ exec >/dev/null 2>&1
 
 { [ "$(joyd_launch_apps -g terminal)" = 'urxvtc' ] && urxvtd -f -q; } &
 
-#{ pidof -s pulseaudio -q || pulseaudio --start --log-target=syslog; } &
 
 joyd_toggle_mode apply
 joyd_tray_programs exec
@@ -28,5 +27,5 @@ joyd_mpd_notifier
 
 # Any additions should be added below.
 
-setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
+# setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
 
