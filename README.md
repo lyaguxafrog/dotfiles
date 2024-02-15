@@ -111,12 +111,22 @@
 * 💡 Icons are located in `~/.icons`.
 * 🎨 Themes (both primary and additional) are located in `~/.themes`.
 
-## 🍻 How to install?
+# 🍻 How to use?
 
 🚨 **ArchLinux only!** 🚨
 
+## Install
 Be sure to clone in ~
 ```bash
-git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /home/$USER/dotfiles && sh install.sh
+git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /home/$USER/dotfiles && sh sh dotfiles.sh install
 ```
 
+## Update
+```bash
+dotfiles update
+```
+
+## Uninstall 
+```bash
+dotfiles uninstall
+```

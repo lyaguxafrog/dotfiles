@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-# obmenu-generator - configuration file
-# https://github.com/owl4ce/dotfiles
-
 # This file will be updated automatically.
 # Any additional comment and/or indentation will be lost.
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-# obmenu-generator - schema file
-# https://github.com/owl4ce/dotfiles
-
 =for comment
 
     item:      add an item inside the menu               {item => ["command", "label", "icon"]},
