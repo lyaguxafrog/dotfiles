@@ -101,7 +101,7 @@ if [[ $1 = 'update' ]]; then
     git pull
 
     
-    rsync -avxHAXP --exclude-from=- dotfiles/. ~/ << "EXCLUDE"
+    rsync -avxHAXP --exclude-from=- /home/$USER/.dotfiles/. ~/ << "EXCLUDE"
     .git*
     *.md
     *.joy
