@@ -116,6 +116,10 @@ if [[ $1 = 'update' ]]; then
     .gtkrc-2.0
     .joyfuld
     .Xresources
+    doas.conf
+    30-touchpad.conf
+    dotfiles.sh
+    docs/
 EXCLUDE
 
 
