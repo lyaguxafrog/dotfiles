@@ -119,15 +119,15 @@
 ## Install
 Be sure to clone in ~
 ```bash
-git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /home/$USER/dotfiles && sh sh dotfiles.sh install
+git clone https://github.com/lyaguxafrog/dotfiles /home/$USER/dotfiles && cd /home/$USER/dotfiles && ./dotfiles install
 ```
 
 ## Update
 ```bash
-dotfiles.sh update
+dotfiles update # command in your shell
 ```
 
 ## Uninstall 
 ```bash
-dotfiles.sh uninstall
+dotfiles uninstall # command in your shell
 ```
