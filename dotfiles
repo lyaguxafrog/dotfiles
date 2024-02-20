@@ -67,7 +67,7 @@ if [[ $1 = 'install' ]]; then
     fc-cache -rv
     rsync -avxHAXP --exclude-from=- /home/$USER/dotfiles/. /home/$USER/ << "EXCLUDE"
 .git*
-dotfiles.sh
+dotfiles
 README.md
 doas.conf
 30-touchpad.conf
@@ -82,7 +82,7 @@ EXCLUDE
     echo "exec fish" > /home/$USER/.bashrc
 
     # startup
-    cp /home/$USER/.dotfiles/dotfiles.sh /home/$USER/.local/bin/dotfiles.sh && doas chmod +x /home/$USER/.local/bin/dotfiles.sh
+    cp /home/$USER/.dotfiles/dotfiles /home/$USER/.local/bin/dotfiles && doas chmod +x /home/$USER/.local/bin/dotfiles
 
     clear
     neofetch
@@ -118,7 +118,7 @@ if [[ $1 = 'update' ]]; then
     .Xresources
     doas.conf
     30-touchpad.conf
-    dotfiles.sh
+    dotfiles
     docs/
 EXCLUDE
 
@@ -187,8 +187,8 @@ if [[ $1 = 'uninstall' ]]; then
         rm -rf /home/$USER/.dotfiles
 
         echo "Uninstallation complete :("
-        echo "dotfiles.sh located in .local/bin/"
-        echo "you can delete using: rm -rf /home/$USER/.local/bin/dotfiles.sh"
+        echo "dotfiles located in .local/bin/"
+        echo "you can delete using: rm -rf /home/$USER/.local/bin/dotfiles"
     else
         echo "Aborted."
     fi
