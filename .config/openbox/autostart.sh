@@ -15,6 +15,8 @@ joyd_tray_programs exec
 
 picom -b
 
+snixmbed
+
 if [ -x "$(command -v lxpolkit)" ]; then
     lxpolkit &
 else
@@ -24,8 +26,9 @@ fi
 { [ -x "$(command -v xss-lock)" ] && xss-lock -q -l "${JOYD_DIR}/xss-lock-tsl.sh"; } &
 
 joyd_mpd_notifier
+# setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
+
 
 # Any additions should be added below.
 
-# setxkbmap -layout us,ru -variant -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp &
 

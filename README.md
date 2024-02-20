@@ -69,7 +69,8 @@
 - [xfce4-power-manager](https://archlinux.org/packages/extra/x86_64/xfce4-power-manager/): Power manager for Xfce desktop.
 - [htop](https://archlinux.org/packages/extra/x86_64/htop/): Interactive process viewer and manager.
 - [neofetch](https://archlinux.org/packages/community/any/neofetch/): A CLI system information tool written in Bash.
-- [fish](https://archlinux.org/packages/community/x86_64/fish/): A smart and user-friendly command-line
+- [fish](https://archlinux.org/packages/community/x86_64/fish/): A smart and user-friendly command-line.
+- [snixembed](https://aur.archlinux.org/packages/snixembed): Proxy the StatusNotifierItem protocol to the XEmbed System Tray.
   
 </details>
 
