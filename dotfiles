@@ -35,9 +35,9 @@ if [[ $1 = 'install' ]]; then
     # fonts
     mkdir -pv /home/$USER/.fonts/{Cantarell,Comfortaa,IcoMoon-Custom,Nerd-Patched,Unifont}
     wget --no-hsts -cNP /home/$USER/.fonts/Comfortaa/ https://raw.githubusercontent.com/googlefonts/comfortaa/main/fonts/OTF/Comfortaa-{Bold,Regular}.otf
-    wget --no-hsts -cNP /home/$USER/.fonts/IcoMoon-Custom/ https://github.com/owl4ce/dotfiles/releases/download/ng/{Feather,Material}.ttf
-    wget --no-hsts -cNP /home/$USER/.fonts/Nerd-Patched/ https://github.com/owl4ce/dotfiles/releases/download/ng/M+.1mn.Nerd.Font.Complete.ttf
-    wget --no-hsts -cNP /home/$USER/.fonts/Nerd-Patched/ https://github.com/owl4ce/dotfiles/releases/download/ng/{M+.1mn,Iosevka}.Nerd.Font.Complete.Mono.ttf
+    wget --no-hsts -cNP /home/$USER/.fonts/IcoMoon-Custom/ https://github.com/lyaguxafrog/dotfiles/releases/download/ng/{Feather,Material}.ttf
+    wget --no-hsts -cNP /home/$USER/.fonts/Nerd-Patched/ https://github.com/lyaguxafrog/dotfiles/releases/download/ng/M+.1mn.Nerd.Font.Complete.ttf
+    wget --no-hsts -cNP /home/$USER/.fonts/Nerd-Patched/ https://github.com/lyaguxafrog/dotfiles/releases/download/ng/{M+.1mn,Iosevka}.Nerd.Font.Complete.Mono.ttf
     wget --no-hsts -cNP /home/$USER/.fonts/Unifont/ https://unifoundry.com/pub/unifont/unifont-14.0.02/font-builds/unifont-14.0.02.ttf
     wget --no-hsts -cN https://download-fallback.gnome.org/sources/cantarell-fonts/0.303/cantarell-fonts-0.303.1.tar.xz
     tar -xvf cantarell*.tar.xz --strip-components 2 --wildcards -C /home/$USER/.fonts/Cantarell/ \*/\*/Cantarell-VF.otf
