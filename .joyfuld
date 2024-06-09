@@ -154,7 +154,7 @@ NCMPCPP_AA_LAUNCHER_GEOMETRY='84x13'
 NCMPCPP_SAA_LAUNCHER_GEOMETRY='47x18'
 
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
-# The following are owl4ce/dotfiles environment variables which called in "*.sh".  #
+# The following are dotfiles environment variables which called in "*.sh".         #
 #-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~--~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-#
 # Doesn't affect to all files. For example "*.tint2rc", "rc.xml", "schema.pl", ..  #
 # are use absolute path and hardcoded. The shell-scripts are executed by shebang.  #
